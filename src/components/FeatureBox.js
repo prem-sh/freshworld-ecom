@@ -11,14 +11,14 @@ export default function FeatureBox() {
     return (
         <section className="features-box">
             <div className="feature">
-            <img src={truck}/>
+            <img src={truck} alt="img"/>
             <div>
                 <p className="title">Free Shipping</p>
                 <p>On all orders above Rs 500</p>
             </div>
             </div>
             <div className="feature">
-            <img src={loop}/>
+            <img src={loop} alt="img"/>
             <div>
                 <p className="title">Free Returns</p>
                 <p>Returns are free within 7 days</p>

@@ -15,7 +15,7 @@ export default function Footer() {
     return (
         <div className="footer">
             <div>
-            <img style={{marginLeft: "10px","marginTop": "15px"}} src={logo} />
+            <img style={{marginLeft: "10px","marginTop": "15px"}} alt="img" src={logo} />
             <div className="left">
                     <li><label style={{"fontWeight": "bold"}}>+91 9488312800</label></li>
                     <li><a style={{"color": "#28A745", "textDecoration": "none"}} href="#">freshworld@gmail.com</a></li>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Fruits from "../../images/fruits.png";
+
 
 const Card = ({data}) => {
   const {
