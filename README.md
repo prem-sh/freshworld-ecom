@@ -1,6 +1,9 @@
-# freshworld-ecom
-An Ecommerce website | functional area (Vegies, Fruits and Edibles)
-----
+# Freshworld-ecom
+____
+### An Ecommerce website | functional area (Vegies, Fruits and Edibles) 
+
+## Deployed on Netlify : [Click here to vist](https://freshworldecom.netlify.app/)
+
 ## Directory Structure
 
     src
@@ -94,13 +97,13 @@ An Ecommerce website | functional area (Vegies, Fruits and Edibles)
       ├── reportWebVitals.js
       └── setupTests.js
 
-  public
+    public
       ├── favicon.ico
       ├── index.html
       ├── logo192.png
       ├── logo512.png
       └── manifest.json
 
-  --package.json  
-  --package-lock.json  
-  --README.md
+    --package.json  
+    --package-lock.json  
+    --README.md
