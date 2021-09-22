@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oranienbaum&family=Oregano&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+/* font-family: 'Oranienbaum', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oregano', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Maven Pro', sans-serif; */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family:'Maven Pro', sans-serif;
+  }
+nav{
+    position:fixed;
+    top: 0px;
+    width:100%;
+    background: rgba(196, 196, 196, 0.4);  
+   
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+#bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size:30px;
+    cursor:pointer;
+    margin: 28px;
+    margin-top: 33px;
+}
+#bar img{
+  vertical-align: top;
+}
+  .sidenav {
+    width: 250px;
+    position: fixed;
+    z-index: 999999999999999999;
+    top: 88px;
+    left: 24;
+    overflow-x: hidden;
+    display: none;
+    z-index: 9999;
+    transition: 0.10s;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(196, 196, 196, 0.7);  
+    backdrop-filter: blur(14px);
+  }
+  .sidebymenu{
+    width: 250px;
+    position: fixed;
+    z-index: 999999999999999999;
+    top: 88px;
+    left: 50px;
+    overflow-x: hidden;
+    display: block;
+    transition: 0.10s;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: rgba(196, 196, 196, 0.4);  
+   
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+  
+  }
+  #superstore{
+    font-family:'Maven Pro', sans-serif;
+    font-weight: 700;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.2s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .logo{
+    margin-left: 96px; 
+    margin-top: 28px; 
+    margin-bottom: 28px;
+  }
+  .top-container{
+    float: right;
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+#chnloc{
+  margin-left: 24;
+}
+#login{
+  margin-left: 24;
+}
+#cart{
+  margin-left: 24;
+  margin-right: 24;
+}
+.search-box{
+  height: 38px;
+  display: flex;
+  align-items: top;
+  padding: 0;
+}
+.search-box input[type="text"] {
+  height: 100%;
+  border: none;
+  padding-left: 28px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px 0px 0px 4px;
+  width: 400px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.search-box button {
+  height: 100%;
+  background-color: dodgerblue;
+  width: 60px;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+
+}
+.search-box input:focus{
+    outline: none;
+}
+.top-container a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 0px 14px;
+}
+.top-container a>*{
+    margin: 0px 5px;
+}
+.slideshow{
+    max-width:100%
+}
+.top-left{
+    position:absolute;
+    top: 270px;
+    left: 67px;
+}
+.top-right{
+    position:absolute;
+    top: 270px;
+    left: 813px;
+}
+.texts{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+}
+.searchtext{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+}
+.slides{
+    width:100%;
+    height:100vh;
+
+}
+.sale{
+    font-size: 48px;
+}
+.natural{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.dry{
+    font-weight: 400;
+    font-family: 'Patrick Hand', cursive;
+}
+.snacks{
+    font-family: 'Oregano', cursive;
+}
+.juices{
+    font-family: 'Oranienbaum', serif;
+}
+.forsale{
+    font-size:24px;
+    margin-top: 14px;
+}
+.shop{
+    font-size:24px;
+    margin-top: 122px;
+}
+.imgplay{
+    margin-left: 10px;
+}
+.searchbar{
+    position: absolute;
+    top: 21px;
+    left: 486px;
+    height: 38px;
+    width: 446px;
+}
+
+.header-image{
+  width: 100%;
+}
+
+.header-image-caption{
+  color: black !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.shop-now{
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px ;
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+.carousel-caption2{
+  color: black !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 10% !important;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.off{
+  background-color: #e9e9e9;
+  margin-top: 5px !important;
+  padding: 5px;
+}
+
+.card-text{
+  color: grey !important;
+  font-size: 14px;
+}
+
+.card-title{
+  margin: 0px !important;
+}
+
+.strikethrough {
+  position: relative;
+  color: grey;
+  font-size: 14px;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(10deg);
+}
+
+.add-to-cart{
+  border-radius: 25px !important;
+}
+
+.width100{
+  width: 100%;
+}

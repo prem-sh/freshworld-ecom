@@ -1,0 +1,93 @@
+.new-release{
+    display: flex;
+    background-color: #F3F3F3;
+    width: 100%;
+    padding: 63px;
+}
+.new-release h2{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+}
+.new-release .left-container img{
+    width: 100%;
+}
+.new-release .left-container{
+    width: 45%;   
+}
+.new-release .left-container .title{
+    width: 45%;   
+}
+
+.new-release .right-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.new-release .card{
+    background-color:white;
+    width: max-content;
+    margin: 20px 14px;
+    display: flex;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+}
+.new-release .card img{
+    width: 100%;
+}
+.new-release .card .image-container{
+    position: relative;
+  text-align: center;
+}
+.new-release .card .image-container .badge{
+    background-color: #EEEEEE;
+    padding: 1px 3px;
+    border-radius: 4px;
+    font-size: 11px;
+    width: max-content;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+}
+.new-release .card .name_avail{
+    margin: 20px 20px 0px 0px;
+}
+.new-release .card .name_avail .title{
+    color: #333333;
+    font-size: 14px;
+}
+.new-release .card .name_avail .avail{
+    color: #9c9c9c;
+    font-size: 12px;
+}
+.new-release .card .price_button{
+    margin: 20px 20px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-release .card .price_button button{
+    color: #fff;
+    font-size: 12px;
+    padding: 5.25px 18px;
+    background-color: #4285F4;
+    border-radius: 12px;
+    border: none;
+}
+.new-release .card .price_button {
+    display: flex;
+}
+.new-release .card .price_button .price_off{
+    margin-right: 20px;
+}
+.new-release .card .price_button .price{
+    color: #000;
+    font-size: 14px;
+}
+.new-release .card .price_button .strike{
+    color: #666666;
+    font-size: 11px;
+}

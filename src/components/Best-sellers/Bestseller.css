@@ -1,0 +1,111 @@
+.bestseller {
+  margin: 24px;
+}
+
+.bestseller-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+}
+
+.card {
+  background-color: white;
+  width: 235px;
+  margin: 20px 14px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+}
+
+.card .image-container {
+  position: relative;
+  text-align: center;
+}
+.card .image-container img{
+  width: 100%;
+}
+
+.card .image-container .badge {
+  background-color: #EEEEEE;
+  color: #000;
+  padding: 1px 3px;
+  border-radius: 4px;
+  font-size: 11px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  font-weight: lighter;
+}
+
+.card .name_avail {
+  margin-left: 22px;
+  margin-top: 41px;
+}
+
+.card .name_avail .title {
+  color: #333333;
+  font-size: 14px;
+}
+
+.card .name_avail .avail {
+  color: #9c9c9c;
+  font-size: 12px;
+}
+
+.card .price_button {
+  margin: 13px 20px 22px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .price_button button {
+  color: #fff;
+  font-size: 12px;
+  padding: 5.25px 18px;
+  background-color: #4285F4;
+  border-radius: 12px;
+  border: none;
+}
+
+.card .price_button {
+  display: flex;
+}
+
+.card .price_button .price {
+  color: #000;
+  font-size: 14px;
+}
+
+.card .price_button .strike {
+  color: #666666;
+  font-size: 11px;
+  width: max-content;
+  background: linear-gradient(
+    20deg, 
+    transparent 47.75%, 
+    currentColor 49.5%, 
+    currentColor 50.5%, 
+    transparent 52.25%);
+}
+
+@media only screen and (max-width: 1280px) {
+    
+  .card {
+    background-color: white;
+    width: max-content;
+    margin: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+  }
+  .bestseller-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+  }
+}
